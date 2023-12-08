@@ -8,12 +8,5 @@ public class Employee {
         this.firstName = firstName;
         this.lastName = lastName;
     }
-
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                '}';
-    }
+    
 }
