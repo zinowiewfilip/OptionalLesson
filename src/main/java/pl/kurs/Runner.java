@@ -94,4 +94,9 @@ public class Runner {
         list = Optional.ofNullable(list).orElseGet(Collections::emptyList);
         System.out.println("list.size() = " + list.size());
     }
+
+    @Override
+    public String toString() {
+        return "Runner{}";
+    }
 }
